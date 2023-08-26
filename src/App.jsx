@@ -27,7 +27,7 @@ function App() {
 
     <div className="container-fluid"> {/* Use container-fluid className for full width */}
     
-      <h1>Platoon One Payment List</h1>
+      <h1>Platoon Payment List</h1>
 
 
 
