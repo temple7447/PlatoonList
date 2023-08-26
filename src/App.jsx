@@ -51,8 +51,8 @@ function App() {
             <tr key={index}>
             <td scope="row">{index+1}</td>
             <td>{items?.fullName}</td>
-            <td>{items?.stateCode}</td>
-            <td>{items?.AmountPay}</td>
+            <td>AN/23B/{items?.stateCode}</td>
+            <td>&#x20A6;{items?.AmountPay}</td>
             <td>{formattedDate}</td>
            
           </tr>
