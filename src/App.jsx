@@ -27,7 +27,7 @@ function App() {
 
     <div className="container-fluid"> {/* Use container-fluid className for full width */}
     
-      <h1>Platoon Payment List</h1>
+      <h1>Platoon Four Payment List</h1>
 
 
 
@@ -64,6 +64,10 @@ function App() {
      
         </tbody>
       </table>
+
+      {/* <div className="position-fixed fixed-bottom p-3"> 
+        07011951761
+      </div> */}
     </div>
   );
 }
