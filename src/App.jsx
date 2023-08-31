@@ -8,7 +8,7 @@ function App() {
   const [list, setList] = useState([])
 
   useEffect(()=>{
-    axios.get("https://charming-cod-gaiters.cyclic.app/Plantoon")
+    axios.get("https://calm-lab-coat-colt.cyclic.app/Plantoon")
     .then((res)=>{
       // console.log(res.data)
       setList(res.data)
