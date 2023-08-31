@@ -1,22 +1,22 @@
 import { useState , useEffect} from 'react';
 
 import './App.css';
-// import axios from 'axios';
+import axios from 'axios';
 
 function App() {
 
   const [list, setList] = useState([])
 
-  useEffect(() => {
-    fetch("https://calm-lab-coat-colt.cyclic.app/Plantoon")
-      .then(response => response.json())
-      .then(data => {
-        setList(data);
-      })
-      .catch(error => {
-        console.error(error);
-      });
-  }, []);
+  useEffect(()=>{
+    axios.get("https://calm-lab-coat-colt.cyclic.app/Plantoon")
+    .then((res)=>{
+      console.log(res.data)
+      setList(res.data)
+    })
+    .catch((error)=>{
+      console.log(error)
+    })
+  },[])
 
 
 
